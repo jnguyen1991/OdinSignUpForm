@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="pane">
+        <div id="banner">
+          <img id="logo" src="odin-lined.png" alt="OdinLogo">
+          <div id="companyName">ODIN</div>
+        </div>
+        <div id="credit">Photo by Halie West on Unsplash</div>
+    </div>
+    <div id="info">
+        <div class="section" id="introText">
+            <p id="introStatement">This is not a real online service! You know you need something like this in your life to 
+              help you realize your deepest dreams.</p> 
+            <p>Sign up <em>now</em> to get started</p>
+            <p id="introTagline">You <em>know</em> you want to.</p>
+        </div>
+        <div class="section" id="formBox">
+            <p>Let's do this!</p>
+            <form id="signUpForm" action="" method="post">
+              <label for="first_name">*FIRST NAME</label>
+              <label for="last_name">*LAST NAME</label>
+              <input type="text" id="first_name" name="first_name" required>
+              <input type="text" id="last_name" name="last_name" required>
+              <label for="email">*EMAIL</label>
+              <label for="phone_number">*PHONE NUMBER</label>
+              <input type="email" id="email" required name="email">
+              <input type="number" id="phone_number" placeholder="0000000000" required name="phone_number">
+              <label for="password">*PASSWORD</label>
+              <label for="confirm_password">*CONFIRM PASSWORD</label>
+              <input type="password" id="password" required name="password">
+              <input type="password" id="confirm_password" required name="confirm_password">
+            </form>
+
+        </div>
+        <div class="section" id="createAccountBox">
+            <button id="createAccountButton">Create Account</button>
+            <div id="alreadyText">Already have an account? <a>Log in</a></div>
+        </div>
+    </div>
+  </body>
+</html>

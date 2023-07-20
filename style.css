@@ -1,0 +1,135 @@
+@font-face {
+    font-family: norseBold;
+    src: url(Norse-Bold.otf);
+}
+
+body{
+    display:flex;
+    height: 100vh;
+    flex-direction: row;
+    margin:0;
+}
+
+#pane{
+    display:flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1862&q=80');
+    background-size: cover;
+}
+
+#id{
+    flex: 0 0 50px;
+    justify-self:  flex-end;
+}
+
+#info{
+    display:flex;
+    flex: 3 3 0;
+    flex-direction: column;
+}
+
+#logo{
+    width: auto;
+    height: 20vh;
+}
+
+.section{
+    display:flex;
+    flex: 1 1 0;
+    background-color: rgba(121, 121, 121, 0.5);
+}
+
+#banner{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 20vh;
+}
+
+#credit, #companyName{
+    text-align: center;
+    color:white;
+}
+
+#companyName{
+    display:flex;
+    font-size:10vh;
+    font-family: norseBold,'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+
+#formBox{
+    background-color: rgba(182, 182, 182, 0.5);
+}
+
+#introText{
+    display:flex;
+    flex-direction: column;
+    padding: 2.5vh 2.5vw;
+    font-size: 2.5vh;
+}
+
+#introStatement{
+    margin-top:10vh;
+}
+
+#introTagline{
+    margin-top:2.5vh;
+}
+
+#formBox{
+    display:flex;
+    flex-direction: column;
+    padding: 2.5vh 2.5vw;
+    font-size: 2.5vh;
+}
+
+#signUpForm{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25%;
+}
+
+#formBox * {
+    margin: 10px;
+}
+
+#createAccountBox {
+    display:flex;
+    flex-direction: column;
+    padding: 2.5vh 2.5vw;
+}
+
+#createAccountButton{
+    width: 20%;
+    height: 5vh;
+    border-radius: 5px;
+    color:white;
+    font-weight: bold;
+    background-color: darkgreen;
+}
+
+#alreadyText{
+    margin-top: 2.5vh;
+}
+
+p{
+    margin:0;
+}
+
+a{
+    color:darkgreen;
+}
+
+#formBox * label{
+    font-size: 1.5vh;
+    margin-bottom: 0px;
+}
+
+#formBox * input{
+    margin-top: 0px;
+}
